@@ -10,10 +10,10 @@ Yarn: yarn
 ```
 4- Run project: start | dev | build
 ```
-node run start
-node run dev
-node run build
+npm run start
+npm run dev
+npm run build
 ```
-node run start = node dist/app.js    
-node run dev   = nodemon src/app.ts    
-node run build = tsc -p .
+npm run start = node dist/app.js    
+npm run dev   = nodemon src/app.ts    
+npm run build = tsc -p .

@@ -1,6 +1,7 @@
 import express from 'express'
 import { ApolloServer } from 'apollo-server-express'
-import typeDefs from './typeDefs'
+// import typeDefs from './typeDefs'
+const typeDefs = require('./schema')
 import resolvers from './resolvers'
 
 const server = new ApolloServer({

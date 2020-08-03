@@ -34,4 +34,4 @@ But if you use
 ```
 const typeDefs = require('./schema')
 ```
-you can use all of your Query,Mutation,etc in "schema.ts" file
+you can write all of your Query,Mutation,etc in "schema.ts" file

@@ -25,5 +25,13 @@ import typeDefs from './typeDefs'
 or
 const typeDefs = require('./schema')
 ```
-If you use import typeDefs from './typeDefs' you have to make all of your schema separately    
-But if you use const typeDefs = require('./schema') , you can use all of your Query,Mutation,etc in "schema.ts" file
+If you use
+```
+import typeDefs from './typeDefs'
+```
+you have to make all of your schema separately    
+But if you use 
+```
+const typeDefs = require('./schema')
+```
+you can use all of your Query,Mutation,etc in "schema.ts" file
